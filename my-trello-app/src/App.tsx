@@ -5,7 +5,7 @@ import Board from './components/Board';
 import TaskModal from './components/TaskModal';
 import { Task } from './types';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
 
