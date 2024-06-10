@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { Column, Task } from '../types';
 
-const API_KEY = '3081b81eeb1602ae788bad9212ef4aaa';
-const TOKEN = 'ATTAaeaec138175530f39f45b1e43b29cd5d55b46fde47f365deab0aeb7c1c8d76aeC71F7F7F';
+const API_KEY = "3081b81eeb1602ae788bad9212ef4aaa";
+const TOKEN = "ATTAaeaec138175530f39f45b1e43b29cd5d55b46fde47f365deab0aeb7c1c8d76aeC71F7F7F"
 const BASE_URL = 'https://api.trello.com/1';
 
 export const useTrello = () => {
